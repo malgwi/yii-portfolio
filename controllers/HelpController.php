@@ -12,7 +12,15 @@ class HelpController extends Controller
     }
 
     public function actionAccountSettings() {
-        return $this->render('account-settings');
+        return $this->render('accountSettings');
+    }
+
+    public function actionLoginAndSecurity() {
+        return $this->render('loginAndsecurity');
+    }
+
+    public function actionPrivacy(){
+        return $this->render('privacy');
     }
 
 }
